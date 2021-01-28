@@ -4,5 +4,6 @@ pkgs.mkShell {
   buildInputs = [
     pkgs.minikube
     pkgs.kubectl
+    pkgs.terraform
   ];
 }
